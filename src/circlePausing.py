@@ -2,7 +2,8 @@
 #
 # Bob Muller
 #
-# The simplest example, a circle moving along the diagonal.
+# The simplest example, a circle moving along the diagonal, 
+# pausing on Touch.Up.
 
 from animate import *
 
@@ -38,4 +39,3 @@ def go():
         stopWhen=finished)
 
 go()
-
